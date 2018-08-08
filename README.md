@@ -1,1 +1,1 @@
-# puppet-ntp
+# macrosity-puppet
