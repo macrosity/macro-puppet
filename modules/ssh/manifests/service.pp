@@ -3,7 +3,7 @@ class ssh::service (
   ){
   service { 'arbitrary-sshd':
     ensure     => running,
-    name       => $service_name
+    name       => $service_name,
     enable     => true,
     hasrestart => true,
     hasstatus  => true,
