@@ -31,3 +31,11 @@ node default {
   class { 'ntp': }
 
 }
+
+node /^macrosity2/ {
+  notify { "Nah then, am Node2 Si Thi!" }
+}
+
+node /^macrosity4/ {
+  notify { "Eyup, I am Node4!" }
+}
