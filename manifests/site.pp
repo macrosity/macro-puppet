@@ -33,9 +33,9 @@ node default {
 }
 
 node /^macrosity2/ {
-  notify { "Nah then, am Node2 Si Thi!" }
+  notify { "Nah then, am Node2 Si Thi!": }
 }
 
 node /^macrosity4/ {
-  notify { "Eyup, I am Node4!" }
+  notify { "Eyup, I am Node4!": }
 }
